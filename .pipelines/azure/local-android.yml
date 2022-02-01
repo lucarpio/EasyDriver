@@ -24,7 +24,7 @@ jobs:
         sleep 60
       displayName: 'Setup Android Emulator'
 
-    - script: npm run start-mobile
+    - script: npm run mobile
       displayName: 'Start Automated Tests'
 
     - script: |
